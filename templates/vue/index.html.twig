@@ -1,0 +1,14 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{{vueProject}}{% endblock %}
+
+{% block body %}
+<div id="app"></div>
+{% if environment == "dev" %}
+    <script src="http://localhost:8080/dist/{{vueProject}}-bundle.js"></script>
+{% else %}
+    <script src="{{ asset('/') }}js/vue_dist/{{vueProject}}-bundle.js" type="text/javascript"></script>
+{% endif %}
+
+
+{% endblock %}
