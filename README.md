@@ -1,4 +1,5 @@
-# ControlInventario
+# ControlInventario 
+Rama principal : master
 
 Sistema de control de inventario de automóviles unicamente se usan dos tipos de vehículos (sedan y motocicletas), diferenciando número de llantas y potencia de motor.
 Con esto se busca categorizar el tipo de vehículo usando abstracción, herencia, etc.
